@@ -1,0 +1,10 @@
+#2write a program to input marks of five subjet physics chemistry biology maths and computer calculate percentage and grade according to fololowing:
+marks1=(float)(input("enetr the marks of physics"))
+marks2=(float)(input("enetr the marks of biology"))
+marks3=(float)(input("enetr the marks of chemistry"))
+marks4=(float)(input("enetr the marks of maths"))
+marks5=(float)(input("enetr the marks of computer"))
+
+t=marks1+marks2+marks3+marks4+marks5
+print("the total is",t)
+percentage=t/5
